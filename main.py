@@ -33,7 +33,7 @@ def run(tool):
             y = m * 0.5
             z = y + (y * (boost_percentage/100))
             v = z * 1.6
-            print("You will need " + str(round(v)) + " miners")
+            print("You will need " + str(round(v)) + " furnaces")
             after_input(tool)
          def ask_boost_percentage():
             boost_percentages = ["none", "20%", "30%", "40%", "50%", "60%", "70%"]
